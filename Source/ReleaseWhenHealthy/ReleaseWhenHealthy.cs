@@ -13,6 +13,7 @@ namespace ReleaseWhenHealthy
         static ReleaseWhenHealthy()
         {
             var harmony = new Harmony("Mlie.ReleaseWhenHealthy");
+
             harmony.PatchAll(Assembly.GetExecutingAssembly());
             ReleaseWhenHealthyMode = DefDatabase<PrisonerInteractionModeDef>.GetNamedSilentFail("ReleaseWhenHealthy");
         }

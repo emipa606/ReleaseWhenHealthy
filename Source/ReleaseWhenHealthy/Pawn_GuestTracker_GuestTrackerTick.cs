@@ -6,7 +6,7 @@ using Verse;
 namespace ReleaseWhenHealthy
 {
     [HarmonyPatch(typeof(Pawn_GuestTracker), "GuestTrackerTick")]
-    public static class Thing_AmbientTemperature
+    public static class Pawn_GuestTracker_GuestTrackerTick
     {
         public static void Postfix(ref Pawn_GuestTracker __instance)
         {
