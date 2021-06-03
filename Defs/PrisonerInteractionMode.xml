@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <PrisonerInteractionModeDef>
+    <defName>ReleaseWhenHealthy</defName>
+    <label>release when healthy</label>
+    <listOrder>27</listOrder>
+  </PrisonerInteractionModeDef>
+</Defs>
