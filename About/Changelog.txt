@@ -1,5 +1,8 @@
 # Changelog for ReleaseWhenHealthy
 
+1.0.2.0 - Added always realease when healthy option
+
+
 1.0.1.0 - Fixed action-list not being long enough to show all interaction-options
 
 

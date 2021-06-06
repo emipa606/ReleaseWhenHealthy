@@ -19,5 +19,11 @@
       <ExcludeAssets>runtime</ExcludeAssets>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="VersionFromManifest">
+      <HintPath>..\VersionFromManifest.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>
+
 

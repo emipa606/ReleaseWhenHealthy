@@ -1,5 +1,4 @@
-﻿using System.Reflection;
-using HarmonyLib;
+﻿using HarmonyLib;
 using RimWorld;
 using Verse;
 
@@ -8,7 +7,7 @@ namespace ReleaseWhenHealthy
     [HarmonyPatch(typeof(Pawn_GuestTracker), "GuestTrackerTick")]
     public static class Pawn_GuestTracker_GuestTrackerTick
     {
-        public static void Postfix(ref Pawn_GuestTracker __instance)
+        public static void Postfix(ref Pawn_GuestTracker __instance, ref Pawn ___pawn)
         {
             if (GenTicks.TicksGame % GenTicks.TickLongInterval != 0)
             {
@@ -20,25 +19,20 @@ namespace ReleaseWhenHealthy
                 return;
             }
 
-            var bindFlags = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic
-                            | BindingFlags.Static;
-            var field = typeof(Pawn_GuestTracker).GetField("pawn", bindFlags);
-
-            var currentPawn = (Pawn) field?.GetValue(__instance);
-            if (currentPawn == null)
+            if (___pawn == null)
             {
                 return;
             }
 
-            if (HealthAIUtility.ShouldSeekMedicalRest(currentPawn))
+            if (HealthAIUtility.ShouldSeekMedicalRest(___pawn))
             {
                 return;
             }
 
             __instance.interactionMode = PrisonerInteractionModeDefOf.Release;
-            var text = "RWH.pawnhealthy".Translate(currentPawn.NameFullColored);
+            var text = "RWH.pawnhealthy".Translate(___pawn.NameFullColored);
             var messageType = MessageTypeDefOf.PositiveEvent;
-            var message = new Message(text, messageType, new LookTargets(currentPawn));
+            var message = new Message(text, messageType, new LookTargets(___pawn));
             Messages.Message(message);
         }
     }
