@@ -4,12 +4,13 @@ using Verse;
 
 namespace ReleaseWhenHealthy
 {
-    [HarmonyPatch(typeof(Pawn_GuestTracker), "SetGuestStatus", typeof(Faction), typeof(bool))]
+    [HarmonyPatch(typeof(Pawn_GuestTracker), "SetGuestStatus", typeof(Faction), typeof(GuestStatus))]
     public static class Pawn_GuestTracker_SetGuestStatus
     {
-        public static void Postfix(ref bool prisoner, ref Pawn_GuestTracker __instance, ref Pawn ___pawn)
+        public static void Postfix(ref GuestStatus guestStatus, ref Pawn_GuestTracker __instance, ref Pawn ___pawn)
         {
-            if (!prisoner || !ReleaseWhenHealthyMod.instance.Settings.AlwaysReleaseWhenHealthy ||
+            if (guestStatus != GuestStatus.Prisoner ||
+                !ReleaseWhenHealthyMod.instance.Settings.AlwaysReleaseWhenHealthy ||
                 ___pawn.questTags?.Count > 0)
             {
                 return;
