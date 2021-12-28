@@ -1,6 +1,6 @@
 # ReleaseWhenHealthy
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 
 Adds a prisoner-interaction to release prisoner only when healthy.
@@ -8,16 +8,14 @@ When they get healthy the interaction is automatically set to Release.
 
 There is also an option to make this the default interaction on all new prisoners, excluding quest-pawns.
 
-[table]
-	[tr]
-		[td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-		[td]https://github.com/emipa606/ReleaseWhenHealthy]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-	[/tr]
-[/table]
+![Image](https://i.imgur.com/O0IIlYj.png)
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+Since modding is just a hobby for me I expect no donations to keep modding. If you still want to show your support you can gift me anything from my https://store.steampowered.com/wishlist/id/Mlie]Wishlist or buy me a cup of tea.
+
+https://ko-fi.com/G2G55DDYD]![Image](https://i.imgur.com/Utx6OIH.png)
+
+
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
