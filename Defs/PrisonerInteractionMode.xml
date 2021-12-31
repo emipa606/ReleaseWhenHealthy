@@ -3,6 +3,7 @@
   <PrisonerInteractionModeDef>
     <defName>ReleaseWhenHealthy</defName>
     <label>release when healthy</label>
+    <description>As soon as the prisoner is healthy, a warden will be sent to release them.</description>
     <listOrder>27</listOrder>
   </PrisonerInteractionModeDef>
 </Defs>
