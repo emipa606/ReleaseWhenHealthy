@@ -1,7 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <RWH.pawnhealthy>{0} is now scheduled for release.</RWH.pawnhealthy>
-  <RWH.defaultaction.label>Always set release when healthy on new prisoners</RWH.defaultaction.label>
-  <RWH.defaultaction.description>Will set the interaction option to Release when healthy instead of No interaction on all new prisoners, excluding quest-pawns</RWH.defaultaction.description>
-  <RWH.version.label>Installed mod-version: {0}</RWH.version.label>
+  <CTR.pawnconverted>{0} has converted, will start recruiting.</CTR.pawnconverted>
+  <CTR.version.label>Installed mod-version: {0}</CTR.version.label>
 </LanguageData>

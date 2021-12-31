@@ -1,12 +1,12 @@
-# ReleaseWhenHealthy
+# ConvertThenRecruit
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
 
-Adds a prisoner-interaction to release prisoner only when healthy.
-When they get healthy the interaction is automatically set to Release.
+Adds a prisoner-interaction to first convert prisoner and then recruit them.
+When they get converted their interraction mode is automatically set to Recruit.
 
-There is also an option to make this the default interaction on all new prisoners, excluding quest-pawns.
+Idea by: Blorpmeister
 
 ![Image](https://i.imgur.com/O0IIlYj.png)
 
