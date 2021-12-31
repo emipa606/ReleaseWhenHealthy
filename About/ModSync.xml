@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModSyncNinjaData>
-  <ID>0583c2eb-e059-47e0-ad3f-1a09368bc043</ID>
-  <ModName>Convert Then Recruit</ModName>
-  <Version>1.3.0</Version>
+  <ID>d8342c5f-8604-415c-861c-678e36484c19</ID>
+  <ModName>Release When Healthy</ModName>
+  <Version>1.0.4.0</Version>
   <SaveBreaking>False</SaveBreaking>
   <Host name="Github">
     <Owner>emipa606</Owner>
-    <Project>ConvertThenRecruit</Project>
+    <Project>ReleaseWhenHealthy</Project>
     <AboutDir>About</AboutDir>
     <DownloadFrom>ModSyncMainPage</DownloadFrom>
     <Branch>master</Branch>
   </Host>
 </ModSyncNinjaData>
-
-
-
-

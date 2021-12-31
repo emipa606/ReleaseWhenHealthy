@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
-  <identifier>ConvertThenRecruit</identifier>
-  <version>1.3.0</version>
+  <identifier>ReleaseWhenHealthy</identifier>
+  <version>1.0.4.0</version>
   <dependencies />
   <incompatibleWith />
   <loadBefore />
   <loadAfter />
-  <manifestUri>https://raw.githubusercontent.com/emipa606/ConvertThenRecruit/master/About/Manifest.xml</manifestUri>
-  <downloadUri>https://github.com/emipa606/ConvertThenRecruit/releases</downloadUri>
+  <manifestUri>https://raw.githubusercontent.com/emipa606/ReleaseWhenHealthy/master/About/Manifest.xml</manifestUri>
+  <downloadUri>https://github.com/emipa606/ReleaseWhenHealthy/releases</downloadUri>
 </Manifest>

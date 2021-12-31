@@ -1,9 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <PrisonerInteractionModeDef>
-    <defName>ConvertThenRecruit</defName>
-    <label>convert then recruit</label>
-    <description>Wardens will attempt to convert the prisoner to their Ideology, and only when they have converted will they start recruiting them.</description>
+    <defName>ReleaseWhenHealthy</defName>
+    <label>release when healthy</label>
     <listOrder>27</listOrder>
   </PrisonerInteractionModeDef>
 </Defs>
