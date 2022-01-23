@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RWH.pawnhealthy>{0}の解放が予定されています。</RWH.pawnhealthy>
+  <RWH.defaultaction.label>新しい囚人が健康になったら常に解放する</RWH.defaultaction.label>
+  <RWH.defaultaction.description>クエストの囚人を除くすべての新しい囚人の交流オプションを「交流なし」ではなく「健康になったら解放」に設定します</RWH.defaultaction.description>
+  <RWH.version.label>インストールされたmod-バージョン：{0}</RWH.version.label>
+</LanguageData>
