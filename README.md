@@ -8,6 +8,8 @@ When they get healthy the interaction is automatically set to Release.
 
 There is also an option to make this the default interaction on all new prisoners, excluding quest-pawns.
 
+Japanese translation from https://rimworld.2game.info/detail.php?id=2506029522]RimWorld Mod database
+
 If you like this one, take a look at my other prisoner interaction-mods
 https://steamcommunity.com/sharedfiles/filedetails/?id=2702584632]Convert Then Recruit
 and
