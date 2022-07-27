@@ -21,6 +21,9 @@
     <li>brrainz.harmony</li>
     <li>avius.prisonlabor</li>
   </loadAfter>
+  <incompatibleWith>
+    <li>Mlie.CustomPrisonerInteractions</li>
+  </incompatibleWith>
   <description>[img]https://i.imgur.com/buuPQel.png[/img]
 
 Adds a prisoner-interaction to release prisoner only when healthy.
@@ -30,16 +33,26 @@ There is also an option to make this the default interaction on all new prisoner
 
 Japanese translation from [url=https://rimworld.2game.info/detail.php?id=2506029522]RimWorld Mod database[/url]
 
-If you like this one, take a look at my other prisoner interaction-mods
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2702584632]Convert Then Recruit[/url]
+[strike]If you like this one, take a look at my other prisoner interaction-mods
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2702584632]Convert Then Recruit[/url],
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2838846353]Convert Then Release[/url]
 and
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2705395014]Convert Then Enslave[/url]
+[/strike]
+
+So I've previously made some different prisoner interraction-mods and since the total number of different options started getting out of hand I combined them into a new mod, [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2841231775]Custom Prisoner Interactions[/url]
+This mod will still stay around for those who want it but the new mod has the same features as all the others combined plus some improvements.
+
 
 [table]
 	[tr]
 		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
 		[td][url=https://github.com/emipa606/ReleaseWhenHealthy][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
-	[/tr]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/h5VwTNL.png[/img][/td]
+    [/tr]
 [/table]
 
 [img]https://i.imgur.com/O0IIlYj.png[/img]
@@ -56,5 +69,6 @@ Since modding is just a hobby for me I expect no donations to keep modding. If y
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [/list]
+
 </description>
 </ModMetaData>

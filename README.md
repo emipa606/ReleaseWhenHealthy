@@ -10,10 +10,16 @@ There is also an option to make this the default interaction on all new prisoner
 
 Japanese translation from https://rimworld.2game.info/detail.php?id=2506029522]RimWorld Mod database
 
-If you like this one, take a look at my other prisoner interaction-mods
-https://steamcommunity.com/sharedfiles/filedetails/?id=2702584632]Convert Then Recruit
+[strike]If you like this one, take a look at my other prisoner interaction-mods
+https://steamcommunity.com/sharedfiles/filedetails/?id=2702584632]Convert Then Recruit,
+https://steamcommunity.com/sharedfiles/filedetails/?id=2838846353]Convert Then Release
 and
 https://steamcommunity.com/sharedfiles/filedetails/?id=2705395014]Convert Then Enslave
+[/strike]
+
+So I've previously made some different prisoner interraction-mods and since the total number of different options started getting out of hand I combined them into a new mod, https://steamcommunity.com/sharedfiles/filedetails/?id=2841231775]Custom Prisoner Interactions
+This mod will still stay around for those who want it but the new mod has the same features as all the others combined plus some improvements.
+
 
 ![Image](https://i.imgur.com/O0IIlYj.png)
 
@@ -32,6 +38,7 @@ https://ko-fi.com/G2G55DDYD]![Image](https://i.imgur.com/Utx6OIH.png)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 

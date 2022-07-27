@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <HugsLib.UpdateFeatureDef Abstract="true" Name="ReleaseWhenHealthy_UpdateFeatureBase">
     <modNameReadable>ReleaseWhenHealthy</modNameReadable>
@@ -11,4 +11,10 @@
 It will however not be triggered on quest-pawns as that might not be a good thing :)
 </content>
   </HugsLib.UpdateFeatureDef>
+	<HugsLib.UpdateFeatureDef ParentName="ReleaseWhenHealthy_UpdateFeatureBase">
+		<defName>ReleaseWhenHealthy_1_3_4</defName>
+		<assemblyVersion>1.3.4</assemblyVersion>
+		<content>So I've previously made some different prisoner interraction-mods and since the total number of different options started getting out of hand I combined them into a new mod, Custom Prisoner Interactions. This mod will still stay around for those who want it but the new mod has the same features as all the others combined plus some improvements.
+You can find the new mod linked from the mod-page of this mod.</content>
+	</HugsLib.UpdateFeatureDef>
 </Defs>
