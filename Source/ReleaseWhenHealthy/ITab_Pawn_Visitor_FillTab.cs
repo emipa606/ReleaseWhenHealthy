@@ -13,7 +13,7 @@ public class ITab_Pawn_Visitor_FillTab
         var lastCode = string.Empty;
         foreach (var codeInstruction in instr)
         {
-            if (codeInstruction.operand is float operand && operand > 120f && lastCode == "ldloc.2 NULL")
+            if (codeInstruction.operand is float operand and > 120f && lastCode == "ldloc.2 NULL")
             {
                 codeInstruction.operand = operand += 30;
             }
