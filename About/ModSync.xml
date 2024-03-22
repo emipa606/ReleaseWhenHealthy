@@ -2,7 +2,7 @@
 <ModSyncNinjaData>
   <ID>d8342c5f-8604-415c-861c-678e36484c19</ID>
   <ModName>Release When Healthy</ModName>
-  <Version>1.4.1</Version>
+  <Version>1.4.2</Version>
   <SaveBreaking>False</SaveBreaking>
   <Host name="Github">
     <Owner>emipa606</Owner>
